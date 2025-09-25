@@ -55,7 +55,8 @@ Automation scripts mirror manual coverage with **detailed logging and reporting*
 ### Automation Testing
 1. Clone the repo:  
 ```bash
-git clone https://github.com/YourUsername/OrangeHRM_Automation_Testing.git
+git clone https://github.com/AntoAhamed/orange-hrm-testing-project.git
+```
 2. Import into Eclipse as a Maven project.
 3. Run tests via TestNG (testng.xml).
 4. View Test Output: test-output/index.html  
