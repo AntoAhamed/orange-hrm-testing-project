@@ -1,104 +1,72 @@
-\# 👥 OrangeHRM Social Features Testing Project
+# 👥 OrangeHRM Social Features Testing Project
 
-
-
-\## 📌 Project Overview
-
-This project contains \*\*manual testing artifacts\*\* for the OrangeHRM social module.  
-
-It validates features such as:
-
-\- Login/Logout
-
-\- Post Creation \& Deletion
-
-\- Like \& Comment
-
-\- Share
-
-
+## 📌 Overview
+This project contains **manual and automation testing artifacts** for the OrangeHRM social module.  
+Features covered: **Login/Logout, Post Creation & Deletion, Likes, Comments, Share**.  
+Automation implemented using **Java + Selenium + TestNG + Extent Reports**.
 
 ---
 
-
-
-\## 📂 Project Structure
-
-\- \*\*TestPlan/\*\* → Detailed test plan for the project  
-
-\- \*\*TestCases/\*\* → Test cases organized by module (Login, Posts, Comments, Likes, etc.)  
-
-\- \*\*BugReports/\*\* → Reported bugs with severity \& priority  
-
-\- \*\*TestSummaryReport/\*\* → Final execution report with coverage  
-
-
+## 📂 Project Structure
+- **TestPlan/** → Detailed test plan  
+- **TestCases/** → Test cases per module (Login, Posts, Comments, Likes, Share)  
+- **BugReports/** → Reported bugs with severity & priority  
+- **TestSummaryReport/** → Final execution report with coverage  
+- **src/** → Automation scripts (Page Objects, Tests, Utilities)  
+- **reports/** → Extent HTML Reports  
+- **test-data/** → Credentials and input data  
+- **testng.xml** → TestNG suite configuration  
+- **pom.xml** → Maven dependencies
 
 ---
 
+## ✅ Covered Features
+- **Login/Logout**: Valid/invalid login, account lock, forgot password  
+- **Posts**: Create, edit, delete posts with text/attachments  
+- **Likes**: Like/unlike posts & comments  
+- **Comments**: Add, edit, delete comments  
+- **Share**: Share posts with validation  
 
-
-\## ✅ Covered Features
-
-\- \*\*Login/Logout\*\*: Valid/invalid login, account lock, forgot password, logout  
-
-\- \*\*Posts\*\*: Create, edit, delete posts with text/attachments  
-
-\- \*\*Likes\*\*: Like/unlike posts \& comments, duplicate prevention  
-
-\- \*\*Comments\*\*: Add, edit, delete comments, like/unlike comments  
-
-\- \*\*Share\*\*: Share posts with validation  
-
-
+Automation scripts mirror manual coverage with **detailed logging and reporting**.
 
 ---
 
+## 📊 Test Coverage
 
-
-\## 📊 Test Coverage
-
-\- Login: ~90%  
-
-\- Posts: ~85%  
-
-\- Likes: ~85–90%  
-
-\- Comments: ~80–85%  
-
-\- Share: ~80%  
-
-\- Overall Coverage: \*\*~85%\*\*
-
-
+| Module  | Manual | Automation |
+|---------|--------|------------|
+| Login   | ~90%   | ~100%      |
+| Posts   | ~85%   | ~95%       |
+| Likes   | ~85–90%| ~95%       |
+| Comments| ~80–85%| ~90%       |
+| Share   | ~80%   | ~90%       |
+| **Overall** | ~85% | ~92%      |
 
 ---
 
+## 🚀 How to Use
 
+### Manual Testing
+1. Review **TestPlan/** for scope & strategy.  
+2. Check **TestCases/** Excel files for test steps.  
+3. Explore **BugReports/** for issues.  
+4. See **TestSummaryReport/** for coverage & results.  
 
-\## 🚀 How to Use
-
-1\. Start with the \*\*TestPlan/\*\* to understand scope \& testing strategy.  
-
-2\. Open the \*\*TestCases/\*\* Excel file → separate sheets for each feature.  
-
-3\. Explore \*\*BugReports/\*\* for identified issues.  
-
-4\. Check \*\*TestSummaryReport/\*\* for execution results and coverage.  
-
-
+### Automation Testing
+1. Clone the repo:  
+```bash
+git clone https://github.com/YourUsername/OrangeHRM_Automation_Testing.git
+2. Import into Eclipse as a Maven project.
+3. Run tests via TestNG (testng.xml).
+4. View Test Output: test-output/index.html  
+5. View Extent Report: reports/ExtentReport.html.
 
 ---
-
-
 
 \## 🔮 Future Work
 
-\- Add \*\*automation scripts\*\* (Selenium + TestNG).  
+\- Add \*\*API testing\*\* (Postman / RestAssured)
 
-\- Extend with \*\*API testing\*\* (Postman/Rest Assured).  
+\- Extend \*\*performance \& security testing\*\*
 
-\- Enhance coverage with \*\*performance \& security tests\*\*.  
-
-
-
+\- Integrate with \*\*CI/CD pipelines\*\* for automated execution
