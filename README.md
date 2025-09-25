@@ -12,7 +12,8 @@ Automation implemented using **Java + Selenium + TestNG + Extent Reports**.
 - **TestCases/** → Test cases per module (Login, Posts, Comments, Likes, Share)  
 - **BugReports/** → Reported bugs with severity & priority  
 - **TestSummaryReport/** → Final execution report with coverage  
-- **src/** → Automation scripts (Page Objects, Tests, Utilities)  
+- **src/** → Automation scripts (Page Objects, Tests, Utilities)
+- **test-output/** → Test Outputs   
 - **reports/** → Extent HTML Reports  
 - **test-data/** → Credentials and input data  
 - **testng.xml** → TestNG suite configuration  
@@ -59,15 +60,12 @@ git clone https://github.com/AntoAhamed/orange-hrm-testing-project.git
 ```
 2. Import into Eclipse as a Maven project.
 3. Run tests via TestNG (testng.xml).
-4. View Test Output: test-output/index.html  
+4. View Test Output: test-output/index.html.
 5. View Extent Report: reports/ExtentReport.html.
 
 ---
 
-\## 🔮 Future Work
-
-\- Add \*\*API testing\*\* (Postman / RestAssured)
-
-\- Extend \*\*performance \& security testing\*\*
-
-\- Integrate with \*\*CI/CD pipelines\*\* for automated execution
+## 🔮 Future Work
+- Add **API testing** (Postman / RestAssured)
+- Extend **performance \& security testing**
+- Integrate with **CI/CD pipelines** for automated execution
