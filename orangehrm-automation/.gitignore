@@ -1,0 +1,48 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Eclipse specific
+.settings/
+.classpath
+.project
+*.prefs
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+
+# Maven
+target/
+dependency-reduced-pom.xml
+build/
+
+# Test reports
+reports/
+test-output/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Extent Reports (keep HTML if you want, ignore cache files)
+*.xml
+*.json
+*.db
+
+!pom.xml
+!testng.xml
+
+# Credentials (if you store them in properties, don’t push!)
+test-data/credentials.properties
